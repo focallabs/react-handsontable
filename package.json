@@ -56,7 +56,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
-    "handsontable": "^6.0.0",
+    "handsontable": "https://github.com/focallabs/handsontable.git#handson-ce",
     "handsontable-pro": "^6.0.0",
     "jest": "^23.6.0",
     "react": "^16.4.1",
@@ -75,7 +75,7 @@
     "uglify-js": "^3.4.4"
   },
   "peerDependencies": {
-    "handsontable": "^5.0.1"
+    "handsontable": "https://github.com/focallabs/handsontable.git#handson-ce"
   },
   "scripts": {
     "build": "npm run delete-builds && npm run build-ce && npm run build-pro",
@@ -133,5 +133,6 @@
         "babelConfig": true
       }
     }
-  }
+  },
+  "dependencies": {}
 }
