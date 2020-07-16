@@ -34,6 +34,6 @@
     "url": "https://github.com/handsontable/react-handsontable/issues"
   },
   "peerDependencies": {
-    "handsontable": ">=6.0.0"
+    "handsontable": "https://github.com/focallabs/handsontable.git#handson-ce"
   }
 }
